@@ -71,3 +71,29 @@ body {
 .navbar .navbar-extra a:hover {
     color: var(--primary);
 }
+
+/* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+
+/* Tab */
+@media (max-width: 758px) {
+    html {
+        font-size: 62.5%;
+    }
+    
+}
+
+
+/* Mobile */
+@media (max-width: 450px) {
+    html {
+        font-size: 55%;
+    }
+}
