@@ -72,6 +72,10 @@ body {
     color: var(--primary);
 }
 
+#hamburger-menu {
+    display: none;
+}
+
 /* Media Queries */
 
 /* Laptop */
