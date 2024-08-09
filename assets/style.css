@@ -80,6 +80,15 @@ body {
         font-size: 75%;
     }
 
+}
+
+
+/* Tab */
+@media (max-width: 758px) {
+    html {
+        font-size: 62.5%;
+    }
+
     #hamburger-menu {
         display: inline-block;
     }
@@ -111,14 +120,6 @@ body {
 
     .navbar .navbar-menu a:hover::after {
         transform: scaleX(0.2);
-    }
-}
-
-
-/* Tab */
-@media (max-width: 758px) {
-    html {
-        font-size: 62.5%;
     }
     
 }
