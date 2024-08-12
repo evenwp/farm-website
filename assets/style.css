@@ -185,7 +185,7 @@ body {
 }
 
 /* Tab */
-@media (max-width: 758px) {
+@media (max-width: 1024px) {
     html {
         font-size: 62.5%;
     }
@@ -223,6 +223,28 @@ body {
         transform: scaleX(0.2);
     }
     
+    .about .row {
+        flex-wrap: wrap;
+    }
+
+    .about .row .about-img img {
+        height: 20rem;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content h3 {
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+
+    .about .row .content p {
+        font-size: 1.6rem;
+    }
 }
 
 /* Mobile */
