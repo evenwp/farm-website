@@ -123,7 +123,7 @@ body {
     font-weight: 300;;
 }
 
-.hero .cta a {
+.hero .cta a, .about .row .content a {
     margin-top: 1rem;
     display: inline-block;
     padding: 1rem 3rem;
@@ -140,12 +140,6 @@ body {
     padding: 8rem 7% 1.4rem;
 }
 
-.about h2 {
-    text-align: center;
-    font-size: 2.6rem;
-    margin-bottom: 3rem;
-}
-
 .about .row {
     display: flex;
 }
@@ -159,20 +153,45 @@ body {
     padding: 0 1rem;
 }
 
-.about .row .content h3 {
-    font-size: 1.5rem;
+.about .row .content h2 {
+    font-size: 2.6rem;
     margin-bottom: 0.8rem;
-    text-shadow: 2px 2px 4px rgba(16, 16, 16, 0.5);
+}
+
+.about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    color: var(--primary);
 }
 
 .about .row .content p {
     margin-bottom: 0.4rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: justify;
 }
 
+.about .row .content .feather {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.product {
+    padding: 8rem 7% 1.4rem;
+}
+
+.product h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
 
 /* Media Queries */
 
