@@ -1,3 +1,13 @@
+// toggle navbar sticky
+document.addEventListener('scroll', () => {
+    var navbar = document.querySelector('.navbar');
+    if (window.scrollY > 0) {
+        navbar.classList.add('scrolled');
+    } else {
+        navbar.classList.remove('scrolled');
+    }
+})
+
 // toggle active class
 const navbarMenu = document.querySelector('.navbar-menu');
 
